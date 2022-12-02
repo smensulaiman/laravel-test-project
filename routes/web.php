@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/', 'PagesController@Index');
+Route::get('/', 'App\Http\Controllers\PagesController@Index');
 
 Route::get('/hello', function () {
     return '<h1>Hello World</h1>';
